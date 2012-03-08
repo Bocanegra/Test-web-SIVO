@@ -1,0 +1,291 @@
+body {
+    margin: 0px; /*background-image: url('${resource(dir: 'images', file: 'fondo.png')}');*/
+    background: url(../images/fondo.png) repeat-x;
+    font: 11px verdana, arial, helvetica, sans-serif;
+    color: black;
+}
+
+h1 {
+    margin-bottom: 20px;
+    padding: 0px;
+    color: #54a8ff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#content {
+    text-align: center;
+}
+
+#footer {
+    border-top: 3px solid cornflowerblue;
+    padding-top: 12px;
+    width: 100%;
+    min-width: 800px;
+    height: 100px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 99;
+    text-align: center;
+    background: url(../images/fondoMenu.png);
+}
+
+.imgMenu {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.logoImg {
+    margin:20px;
+}
+
+#container {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    width: 800px;
+    height: auto;
+}
+
+#principal {
+    width: auto;
+    min-height: 550px;
+    height: auto;
+    margin: 0 0px 0 0px;
+    padding: 10px;
+    background-color: white;
+}
+
+#footer2 {
+    width: 800px;
+    height: 40px;
+    background: url(../images/barraInf.png);
+}
+
+#header2 {
+    width: 800px;
+    height: 40px;
+    margin: 0 0 0 0;
+    background: url(../images/barraSup.png);
+}
+
+.buttons {
+    clear: both;
+
+}
+
+/*Tablas*/
+#addNewMachine{
+      margin-left: 70px;
+}
+
+div.tabla {
+    margin-left: 70px;
+    text-align:center;
+    clear: none;
+}
+
+div.fila {
+    clear: both;
+}
+
+div.col_titulo {
+    float: left;
+    padding: 5px;
+    border-color: #E5EFF8;
+    border-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    width: 200px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div.col_tituloM {
+    float: left;
+    padding: 5px;
+    border-color: #E5EFF8;
+    border-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    width: 150px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div.colodd {
+    float: left;
+    padding: 5px;
+    border-color: #E5EFF8;
+    border-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    width: 200px;
+    background: #E5EFF8;
+
+}
+
+div.coleven {
+    float: left;
+    padding: 5px;
+    border-color: #E5EFF8;
+    border-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    width: 200px;
+}
+
+div.coloddM {
+    float: left;
+    padding: 5px;
+    border-color: #E5EFF8;
+    border-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    width: 150px;
+    background: #E5EFF8;
+
+}
+
+div.coloddMSave {
+    float: left;
+    padding-top: 5px;
+    border-color: #E5EFF8;
+    border-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    width: 60px;
+    height: 32px;
+    background: #E5EFF8;
+
+}
+
+div.colevenM {
+    float: left;
+    padding: 5px;
+    border-color: #E5EFF8;
+    border-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    width: 150px;
+}
+
+/*Listas*/
+
+.lista {
+    clear: both;
+    margin-left: 70px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.tituloLista {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.listUl {
+    font-weight: normal;
+}
+
+.listLi {
+
+}
+
+#Bar {
+    margin: auto;
+    width: 450px;
+}
+
+.imgMenu1 {
+    background: url(../images/listUsers.png);
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.imgMenu1:hover {
+    background: url(../images/listUsersBlue.png);
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.imgMenu2 {
+    background: url(../images/addUser.png);
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.imgMenu2:hover {
+    background: url(../images/addUserBlue.png);
+    float: left;
+}
+
+.imgMenu3 {
+    background: url(../images/listMachines.png);
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.imgMenu3:hover {
+    background: url(../images/listMachinesBlue.png);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.imgMenu4 {
+    background: url(../images/addMachine.png);
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.imgMenu4:hover {
+    background: url(../images/addMachineBlue.png);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.imgMenu5 {
+    background: url(../images/exit.png);
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
